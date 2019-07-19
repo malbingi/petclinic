@@ -14,7 +14,7 @@
     </parent>
     <groupId>malbingi.springframework</groupId>
     <artifactId>petclinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>petclinic</name>
     <description>Spring Pet Clinic</description>
 
@@ -41,7 +41,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/malbingi/petclinic.git</developerConnection>
-        <tag>petclinic-0.0.1</tag>
+        <tag>HEAD</tag>
     </scm>
 
 </project>
