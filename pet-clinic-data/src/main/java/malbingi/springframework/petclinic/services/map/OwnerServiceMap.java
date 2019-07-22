@@ -2,9 +2,11 @@ package malbingi.springframework.petclinic.services.map;
 
 import malbingi.springframework.petclinic.model.Owner;
 import malbingi.springframework.petclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override

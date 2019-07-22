@@ -2,9 +2,11 @@ package malbingi.springframework.petclinic.services.map;
 
 import malbingi.springframework.petclinic.model.Vet;
 import malbingi.springframework.petclinic.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
